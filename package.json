@@ -1,0 +1,28 @@
+{
+  "name": "awesome-blog",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "lint": "npx eslint --ext .js,.vue .",
+    "lint:fix": "npx eslint --ext .js,.vue --fix ."
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^9",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-remark-shiki": "^0.6.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-plugin-vue": "^7.6.0",
+    "postcss": "^7.0.35",
+    "postcss-nested": "^4.2.3",
+    "postcss-nesting": "^7.0.1"
+  }
+}
